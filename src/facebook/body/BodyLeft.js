@@ -1,4 +1,5 @@
 import React from 'react';
+import Signup from '../signup/Signup';
 
 const BodyLeft = () => {
     return(
@@ -24,7 +25,7 @@ const BodyLeft = () => {
                     </div>
                 </div>
                 <div className="signup">
-                    signup
+                    <Signup/>
                 </div>
             </div>
         </div>
